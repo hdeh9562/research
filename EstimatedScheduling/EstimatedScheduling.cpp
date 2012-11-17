@@ -49,7 +49,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//srand ( time(NULL) );
 	MyEnvironment e;
 	GenerateRandom g;
-	int task_number = 1100;
+	int task_number =900;
 	int machines = 2;
 	int tools = 2;
 	e.set_inputs(machines, task_number,tools);
